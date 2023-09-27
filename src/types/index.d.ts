@@ -1,9 +1,12 @@
 import type Utools from "utools-api-types";
+import type Everything from "everything-node";
 
 export {};
 
 declare global {
-  interface Window {}
+  interface Window {
+    everything: Everything;
+  }
 }
 declare module "@vue/runtime-dom" {
   export interface CSSProperties {
