@@ -1,0 +1,30 @@
+{
+  "name": "everything",
+  "version": "0.1.0",
+  "pluginName": "everything",
+  "description": "开源本地erverything搜索实现",
+  "author": "renmu123",
+  "homepage": "https://github.com/renmu123",
+  "main": "index.html",
+  "logo": "logo.png",
+  "preload": "preload.js",
+  "platform": ["win32"],
+
+  "development": {
+    "main": "http://127.0.0.1:5173"
+  },
+  "features": [
+    {
+      "code": "everything",
+      "explain": "search everything",
+      "mainPush": false,
+      "cmds": [
+        {
+          "type": "over",
+          "label": "搜索",
+          "minLength": 1
+        }
+      ]
+    }
+  ]
+}
